@@ -1,0 +1,87 @@
+{
+  "lastUpdated": "2026-03-09T00:00:00.000Z",
+  "source": "QHSE Dashboard 2.0",
+  "summary": {
+    "vehicleTotal": 1617,
+    "vehicleIssues": 18,
+    "forkliftTotal": 1758,
+    "forkliftIssues": 6,
+    "facilityTotal": 31,
+    "fireExtTotal": 134,
+    "fireExtIssues": 3,
+    "firstAidTotal": 104,
+    "preTrip": 1160,
+    "postTrip": 457,
+    "nearMissTotal": 1,
+    "fireDrillTotal": 11
+  },
+  "monthlyTrend": {
+    "months": ["2024-10","2024-11","2024-12","2025-01","2025-02","2025-03","2025-04","2025-05","2025-06","2025-07","2025-08","2025-09","2025-10","2025-11","2025-12","2026-01","2026-02","2026-03"],
+    "vehicle":  [23,63,99,110,103,130,123,151,97,97,100,62,82,106,73,78,90,30],
+    "forklift": [30,85,106,106,127,136,125,121,108,121,108,84,104,87,80,105,98,27],
+    "firstaid": [2,1,4,3,4,10,6,8,7,7,5,5,8,10,4,6,7,2],
+    "fireext":  [0,0,0,3,5,5,8,11,9,11,10,9,10,11,9,11,11,3]
+  },
+  "vehicleByLocation": [
+    {"location":"LWH","count":464},
+    {"location":"MOB","count":313},
+    {"location":"BWH","count":312},
+    {"location":"MEM","count":208},
+    {"location":"HWH","count":124},
+    {"location":"FS","count":77},
+    {"location":"SWH","count":64}
+  ],
+  "forkliftByLocation": [
+    {"location":"LWH","count":621},
+    {"location":"MEM","count":232},
+    {"location":"MOB","count":201},
+    {"location":"SWH","count":170},
+    {"location":"PPS","count":139},
+    {"location":"HWH","count":123},
+    {"location":"FS","count":118},
+    {"location":"BWH","count":98},
+    {"location":"GPT","count":8}
+  ],
+  "topVehicleInspectors": [
+    {"name":"A. Achord","count":333},
+    {"name":"W. Giddens","count":218},
+    {"name":"T. Ferritto","count":214},
+    {"name":"J. Sanders","count":146},
+    {"name":"S. Baudoin","count":142},
+    {"name":"R. Bennett","count":105},
+    {"name":"J. Leboeuf","count":97},
+    {"name":"M. Rarick","count":70},
+    {"name":"R. Carnes","count":66},
+    {"name":"M. Powell","count":62}
+  ],
+  "topForkliftInspectors": [
+    {"name":"J. Breaux","count":637},
+    {"name":"A. Yeend","count":208},
+    {"name":"W. Adcock","count":138},
+    {"name":"G. Dressner","count":136},
+    {"name":"R. Lathrop","count":128},
+    {"name":"Z. Powell","count":91},
+    {"name":"T. Howell","count":87},
+    {"name":"S. Breaux","count":84},
+    {"name":"P. Laneri","count":81},
+    {"name":"C. Yang","count":51}
+  ],
+  "vehicleIssuesByLocation": [
+    {"location":"BWH","type":"Vehicle","count":6},
+    {"location":"MOB","type":"Vehicle","count":4},
+    {"location":"MEM","type":"Vehicle","count":4},
+    {"location":"HWH","type":"Vehicle","count":3},
+    {"location":"LWH","type":"Vehicle","count":1}
+  ],
+  "forkliftIssuesByLocation": [
+    {"location":"MEM","type":"Forklift","count":2},
+    {"location":"LWH","type":"Forklift","count":1},
+    {"location":"MOB","type":"Forklift","count":1},
+    {"location":"HWH","type":"Forklift","count":1},
+    {"location":"BWH","type":"Forklift","count":1}
+  ],
+  "fireExtIssuesByLocation": [
+    {"location":"HWH","type":"Fire Ext.","count":2},
+    {"location":"MOB","type":"Fire Ext.","count":1}
+  ]
+}
